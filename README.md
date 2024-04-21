@@ -1,1 +1,7 @@
 # CPE243_HOA13.1
+   GROUP ACTIVITY 
+      DELA CRUZ
+      EMPAYNADO
+      ESPAÑO
+      EUSTAQUIO
+      FERMIN
