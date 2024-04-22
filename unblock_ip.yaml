@@ -1,0 +1,19 @@
+---
+- name: delete block list entry
+  hosts: checkpoint
+  become: true
+
+  tasks:
+    - name: Install ufw package
+      apt:
+        name: ufw
+        state: present
+
+    - name: Delete Firewall
+      command: ufw delete deny from 192.168.56.110
+
+    - name: Enable UFW Firewall
+      service:
+        name: ufw
+        state: restarted
+        enabled: yes
